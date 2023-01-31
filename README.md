@@ -8,12 +8,11 @@ What is Elastic Beanstalk ?
 Aws Elastic Beanstalk makes it event esaier for developrers to quickly deploy and manage application in the Aws Cloud . Developers simply upload their application, and Elastic Beanstalk automatically handles the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring.
 
 You can see the architecture :
+
 ![Schermata da 2023-01-25 13-43-43](https://user-images.githubusercontent.com/123361990/215750691-7f4151b7-73bd-425b-aaff-1024aa15e296.png)
 
 
-
-
-1. Is necessary to have an Aws Account,after a login select a Region 
+1. Is necessary to have an Aws Account,after a login is most important that you select a Region 
 
 2. Open a Aws Console , and search Elastic Beanstalk 
 
