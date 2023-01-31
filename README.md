@@ -165,8 +165,11 @@ You can see the basic infrastracture :
 ![Schermata da 2023-01-31 12-27-14](https://user-images.githubusercontent.com/123361990/215749973-f1b994de-a834-455b-a3f4-8c41eca9f34d.png)
     
 What can we do for complete this application ? 
-   Attach Elastic Beanstalk to a Route 53 - work in progress
-   Enable SSL on Elastic Beanstalk - work in progress
+
+-   Attach Elastic Beanstalk to a Route 53 - work in progress
+-   Enable SSL on Elastic Beanstalk - work in progress
+
+
 
     
 
