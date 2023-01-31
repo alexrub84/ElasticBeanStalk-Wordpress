@@ -1,11 +1,15 @@
 # ElasticBeanStalk-Wordpress
 ElasticBeanStalk Wordpress
 
-This is to set up wordpress using AWS infrastructure . 
+This is a set up of Wordpress using AWS infrastructure . 
 We are using Elastic Beanstalk and RDS with MySql engine.
 
 What is Elastic Beanstalk ?
 Aws Elastic Beanstalk makes it event esaier for developrers to quickly deploy and manage application in the Aws Cloud . Developers simply upload their application, and Elastic Beanstalk automatically handles the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring.
+
+You can see the architecture :
+![Schermata da 2023-01-25 13-43-43](https://user-images.githubusercontent.com/123361990/215750691-7f4151b7-73bd-425b-aaff-1024aa15e296.png)
+
 
 
 
@@ -115,17 +119,30 @@ Aws Elastic Beanstalk makes it event esaier for developrers to quickly deploy an
 ![Schermata da 2023-01-31 12-20-24](https://user-images.githubusercontent.com/123361990/215746515-e0ae53c7-05a1-4238-abab-8812143f1bb3.png)
 
 20. Put here all information that you have save , complete a installation 
-    Db Name : ebdb ; Row 81
-    User: admin ; Row 84
-    Password: write here your password ; Row 87
-    Database Host : xxxx-e-xxxxxxx-xxxxx-xxxxxxxxxx-xxxxxxxxxx.xxxxxxxxxx.eu-west-1.rds.amazonaws.com ; Row 90
-    #Click on Submit 
+    -Db Name : ebdb ; 
+    
+    -User: admin ;
+    
+    -Password: write here your password ;
+    
+    -Database Host : xxxx-e-xxxxxxx-xxxxx-xxxxxxxxxx-xxxxxxxxxx.xxxxxxxxxx.eu-west-1.rds.amazonaws.com ;
+    
+    -#Click on Submit 
     
 21. Run the Installation 
 
 22. Welcome to the famous five-minuite Wordpress installation process! Scroll down and Hit ‘Install WordPress’. If all went well, then you will get a ‘Success’ notification as shown
 ![Schermata da 2023-01-31 12-25-08](https://user-images.githubusercontent.com/123361990/215747541-ac52ee23-29ac-48ef-b1e6-500da53729b6.png)
 
+23. Provide your login credentials and click Login In
+    ![Schermata da 2023-01-31 12-27-04](https://user-images.githubusercontent.com/123361990/215749674-79083976-02fc-464f-bfe1-a8204edecf8b.png)
+    
+24. Voila! This is a Wordpress dashboard that you can use to create your first plog or website!
+![Schermata da 2023-01-31 12-27-14](https://user-images.githubusercontent.com/123361990/215749973-f1b994de-a834-455b-a3f4-8c41eca9f34d.png)
+    
+What can we do for complete this application ? 
+   Attach Elastic Beanstalk to a Route 53 - work in progress
+   Enable SSL on Elastic Beanstalk - work in progress
 
     
 
