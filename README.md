@@ -18,7 +18,8 @@ You can see the basic infrastracture :
 2. ![Schermata da 2023-01-31 10-37-34](https://user-images.githubusercontent.com/123361990/215723480-72b9aad8-bd7d-47a0-811f-d4489ef3fe2e.png)
 3. Click on Create Application 
 
-4. Follow this instructions for realize your application :
+4. Follow this step for realize your application :
+
    4.1 Name of application : in this example , i have write "wordpress"
    
    4.2 Tag - Key Owner - Value : myemail 
@@ -56,6 +57,7 @@ You can see the basic infrastracture :
    4.14 Password : select a password - copy and remember for config Wordpress  
    
    4.15 Availability  : Multi-AZ
+   
 ![Schermata da 2023-01-31 10-49-15](https://user-images.githubusercontent.com/123361990/215726229-c3e1b3ec-8eb1-4e8c-9fa9-acf747ab6184.png)
 
 5. When you have finish a configuration , we have our environment ready 
@@ -121,9 +123,11 @@ You can see the basic infrastracture :
 12. Write a name of your file , (for example wordpress.zip) and save it on your Desktop . 
 
 13. Come back to your Elastic Beanstalk console , open a Enviroment page 
+
 ![Schermata da 2023-01-31 11-58-04](https://user-images.githubusercontent.com/123361990/215742907-341c9ca1-dcbe-4338-96ab-f80dd134e087.png)
 
 14. Click on Load and distribute 
+
 ![Schermata da 2023-01-31 12-02-51](https://user-images.githubusercontent.com/123361990/215743023-5b6e8915-72ef-4934-a43a-62a67eec5914.png)
 
 15. Click on Select a file , and put here your wordpress.zip file that we have saved on our Desktop PC.
