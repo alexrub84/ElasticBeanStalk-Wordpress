@@ -78,7 +78,7 @@ Aws Elastic Beanstalk makes it event esaier for developrers to quickly deploy an
    
    // ** Impostazioni database - È possibile ottenere queste informazioni dal proprio fornitore di hosting ** //
    /** Il nome del database di WordPress */
-   define( 'DB_NAME', 'edbd' );
+   define( 'DB_NAME', 'ebdb' );
 
    /** Nome utente del database */
    define( 'DB_USER', 'admin' );
@@ -111,8 +111,23 @@ Aws Elastic Beanstalk makes it event esaier for developrers to quickly deploy an
 18. When is complete , we can open our Environment web page , click on the link 
 ![Schermata da 2023-01-31 12-14-05](https://user-images.githubusercontent.com/123361990/215745518-3dde1032-1491-449c-b08e-677632adea37.png)
 
+19. Welcome on your Wordpress Web Page configuration  
+![Schermata da 2023-01-31 12-20-24](https://user-images.githubusercontent.com/123361990/215746515-e0ae53c7-05a1-4238-abab-8812143f1bb3.png)
+
+20. Put here all information that you have save , complete a installation 
+    Db Name : ebdb ; Row 81
+    User: admin ; Row 84
+    Password: write here your password ; Row 87
+    Database Host : xxxx-e-xxxxxxx-xxxxx-xxxxxxxxxx-xxxxxxxxxx.xxxxxxxxxx.eu-west-1.rds.amazonaws.com ; Row 90
+    #Click on Submit 
+    
+21. Run the Installation 
+
+22. Welcome to the famous five-minuite Wordpress installation process! Scroll down and Hit ‘Install WordPress’. If all went well, then you will get a ‘Success’ notification as shown
+![Schermata da 2023-01-31 12-25-08](https://user-images.githubusercontent.com/123361990/215747541-ac52ee23-29ac-48ef-b1e6-500da53729b6.png)
 
 
+    
 
 
 
