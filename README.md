@@ -19,37 +19,59 @@ You can see the infrastracture :
 2. ![Schermata da 2023-01-31 10-37-34](https://user-images.githubusercontent.com/123361990/215723480-72b9aad8-bd7d-47a0-811f-d4489ef3fe2e.png)
 3. Click on Create Application 
 
-4. Follow this inscrutions for realize your application :
+4. Follow this instructions for realize your application :
    4.1 Name of application : in this example , i have write "wordpress"
+   
    4.2 Tag - Key Owner - Value : myemail 
+   
    4.3 Platform - Php is necessary for install and launch our Wordpress Web site 
+   
    4.4 Platform branch- PHP 8.1 running on 64bit Amazon Linux 2
+   
    4.5 Version 3.5.3 
-   4.6 Code of application 
+   
+   ![Schermata da 2023-01-31 15-39-09](https://user-images.githubusercontent.com/123361990/215791316-7e65f5da-94a2-425e-b186-1e653ef778b8.png)
+   
+   4.6 Code of application - select Application example
+   
+   ![Schermata da 2023-01-31 15-49-49](https://user-images.githubusercontent.com/123361990/215793521-71283001-2f1c-417e-9b23-b364c18f0e8c.png)
+
    4.7 Click on Configure more options 
+
+   ![Schermata da 2023-01-31 15-45-49](https://user-images.githubusercontent.com/123361990/215792774-086c2624-1ad3-4b04-92ba-a56c6b8fa6f9.png)
+   
    4.8 Select high availability 
-   4.9 Scroll down the page , and click on Modify on Database label . You now add a database SQL RDS that apply on your application 
-   4.10 For the first time select a Engine : MySql 
+   
+   ![Schermata da 2023-01-31 15-42-54](https://user-images.githubusercontent.com/123361990/215791554-526b104d-5915-4a9c-8db2-70358932365c.png)
+
+   4.9 Scroll down the page , and click on Modify in Database label . You now add a database SQL RDS that apply on your application 
+   
+   4.10 Select a Engine : MySql 
+   
    4.11 Istance Class db.t2.small 
+   
    4.12 Storage 20 GB 
+   
    4.13 User name : admin - copy and remember for config Wordpress 
+   
    4.14 Password : select a password - copy and remember for config Wordpress  
+   
    4.15 Availability  : Multi-AZ
 ![Schermata da 2023-01-31 10-49-15](https://user-images.githubusercontent.com/123361990/215726229-c3e1b3ec-8eb1-4e8c-9fa9-acf747ab6184.png)
 
 5. When you have finish a configuration , we have our environment ready 
 ![Schermata da 2023-01-31 10-52-45](https://user-images.githubusercontent.com/123361990/215727578-3bfa30c2-1646-45ad-9d15-d2f72df2bca0.png)
 
-6. Now is necessary to take any information, that are most important , go on your environment click on configuration , scroll down the page and select 
+6. Now is necessary to take many information, that are most important , go on your environment click on configuration , scroll down the page and select 
    Endpoint link 
    ![Schermata da 2023-01-31 11-23-51](https://user-images.githubusercontent.com/123361990/215735183-c3d2e69f-e71f-4a52-ae9d-fa3a2f149388.png)
 
-7. Perfet now we see a istance of the our DB , here we can found some information that are necessary for install WordPress 
-    - Copy a EndPoint 
+7. Perfcet now we see a istance of the our DB , here we can found some information that are necessary for install WordPress 
+    - Copy a EndPoint link
     - Click on Configuration 
 ![Schermata da 2023-01-31 11-29-15](https://user-images.githubusercontent.com/123361990/215736306-e5b94ab4-7d14-47a6-adb2-32ac72967216.png)
 
-8. In configuration page , copy a name of DB is necessary to config Wordpress
+8. In configuration page , copy a name of DB , is necessary to config Wordpress
    ![Schermata da 2023-01-31 11-35-51](https://user-images.githubusercontent.com/123361990/215737026-86b5359f-1663-4497-a1f6-569cadf0db48.png)
 
 6. Now download Wordpress latest version https://wordpress.org/latest.zip
@@ -94,18 +116,18 @@ You can see the infrastracture :
     
 10. Save the file and close your block notes
 
-11. Create a new file zip on your PC, most important select all file in your folder
+11. Create a new file *.zip on your PC, most important select all file in your folder
 ![Schermata da 2023-01-31 11-54-26](https://user-images.githubusercontent.com/123361990/215741224-f2991df4-fbf1-4054-a5c0-a474a67d8633.png)
 
-12. Write a name of your file , for example wordpress.zip and save it on your Desktop . 
+12. Write a name of your file , (for example wordpress.zip) and save it on your Desktop . 
 
-13. Come back to your Elasti Beanstalk console , open a Enviroment page 
+13. Come back to your Elastic Beanstalk console , open a Enviroment page 
 ![Schermata da 2023-01-31 11-58-04](https://user-images.githubusercontent.com/123361990/215742907-341c9ca1-dcbe-4338-96ab-f80dd134e087.png)
 
 14. Click on Load and distribute 
 ![Schermata da 2023-01-31 12-02-51](https://user-images.githubusercontent.com/123361990/215743023-5b6e8915-72ef-4934-a43a-62a67eec5914.png)
 
-15. Click on Select a file , and put here your zip file that we have saved on our Desktop PC.
+15. Click on Select a file , and put here your wordpress.zip file that we have saved on our Desktop PC.
     
 16. When you have upload a file , click on Distribute.
 
@@ -117,7 +139,7 @@ You can see the infrastracture :
 19. Welcome on your Wordpress Web Page configuration  
 ![Schermata da 2023-01-31 12-20-24](https://user-images.githubusercontent.com/123361990/215746515-e0ae53c7-05a1-4238-abab-8812143f1bb3.png)
 
-20. Put here all information that you have save , complete a installation 
+20. Put here all information that you have saved , complete a installation 
     -Db Name : ebdb ; 
     
     -User: admin ;
